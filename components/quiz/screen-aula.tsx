@@ -12,7 +12,7 @@ export function ScreenAula({ onNext }: ScreenAulaProps) {
     useEffect(() => {
         // Load the vturb player script
         const script = document.createElement("script")
-        script.src = "https://scripts.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/players/698d2dd11e643e3dce3ae1b0/v4/player.js"
+        script.src = "https://scripts.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/players/698dfbad11e55d52a5c02e7c/v4/player.js"
         script.async = true
         document.head.appendChild(script)
 
@@ -46,7 +46,7 @@ export function ScreenAula({ onNext }: ScreenAulaProps) {
             <div className="w-full max-w-[440px] mb-8">
                 <div
                     dangerouslySetInnerHTML={{
-                        __html: `<vturb-smartplayer id="vid-698d2dd11e643e3dce3ae1b0" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>`
+                        __html: `<vturb-smartplayer id="vid-698dfbad11e55d52a5c02e7c" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>`
                     }}
                 />
             </div>
