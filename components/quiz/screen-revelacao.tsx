@@ -24,7 +24,7 @@ export function ScreenRevelacao({ onNext }: ScreenRevelacaoProps) {
         {/* Image A */}
         <div className="relative flex-1 aspect-[3/4] rounded-xl overflow-hidden">
           <Image
-            src="https://i.imgur.com/RfNcqjL.jpegg"
+            src="https://i.imgur.com/RfNcqjL.jpeg"
             alt="IA A"
             fill
             className="object-cover"
